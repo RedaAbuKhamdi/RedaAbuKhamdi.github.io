@@ -29,8 +29,7 @@ width: 50%;
     border: 5px inset grey;
     background-color: rgb(234, 255, 254);
     font-family: 'Nunito Sans', sans-serif;
-   
-    width: 50%;
+    flex-grow:1 ;
     margin: 0 5 5 0;
     border-radius: 25px;
    
@@ -40,11 +39,11 @@ width: 50%;
     font-family: 'Nunito Sans', sans-serif;
     border: 5px outset grey;
     height: auto;
-    width: 50%;
+    /* width: 50%; */
     margin: 5 0 0 5;
     background-color: rgb(214, 255, 214);
     border-radius: 25px;
-   
+   flex-grow: 1;
 }
 #fx2{
    
@@ -56,10 +55,11 @@ width: 50%;
 #vid{
     /* border: 5px inset grey; */
     height:100%;
-    width: 50%;
+    /* width: 50%; */
     margin: 5px 5px 0 0;
     border-radius: 25px;
     box-shadow: 0px 0px 10px rgb(77, 77, 77);
+    flex-grow: 1;
 }
 #fx1{
     display: flex;
@@ -70,10 +70,11 @@ width: 50%;
 #vid2{
     /* border: 5px inset grey; */
     height: 100%;
-    width: 50%;
+    /* width: 50%; */
     margin: 0 0 5 5;
     border-radius: 25px;
     box-shadow: 0px 0px 10px rgb(77, 77, 77);
+    flex-grow: 1;
 }
 .myvideo{
     height: 540px;
