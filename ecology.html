@@ -1,0 +1,103 @@
+<html>
+<head>
+<title>Экология</title>
+
+    <link rel="stylesheet" href="ecologystyle.css"/>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Neucha&display=swap');
+    </style>
+    <style>
+    @import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+    </style>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&display=swap');
+    </style>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Prosto+One&display=swap');
+        </style>
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+            </style>
+
+</head>
+<body>
+   
+    <div id="fx">
+    <div id="d1">
+       <h1 >Экология</h1>
+    </div>
+    <div id="d2"><h2 >Правила поведения в экологических местах</h2></div>
+    </div>
+    
+<div id="fx1">
+    <div id="text">
+        <ul>
+            <li>Не рвите цветы и не ломайте ветки деревьев. В качестве топлива для костра используйте сухостой.</li>
+            <li>Для передвижения используйте тропинки, если они есть.</li>
+            <li>Всегда смотрите себе под ноги, внимательность — это основа вашей безопасности.</li>
+            <li>Не прикармливайте диких животных и птиц, даже если очень хочется. Человеческие продукты могут быть для них смертельно опасны.</li>
+            <li>Не берите животных на руки и не касайтесь их — они могут повести себя агрессивно. </li>
+            <li>Не оставляйте после себя мусор — собирайте всё в отдельные пакеты и увозите до ближайшей мусорки.</li>
+        </ul>
+    </div>
+    <div id="vid2">
+       <a href="https://ru.unesco.org"> 
+        <iframe class='myvideo' src="https://www.youtube.com/embed/oP_AnDErhek?autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+       </a>
+
+    </div>
+</div>
+
+
+
+    <div id="fx2">
+    <div id="vid">
+        <a href="https://recyclemag.ru/article/laifhakov-kotorie-pomogut-sdelat-zhizn-ekologichnee"><iframe class='myvideo' src="https://www.youtube.com/embed/oP_AnDErhek?autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></a>
+    </div>
+    <div id="text2">
+            <h2 id="h1_2">Повседневная экология</h2>
+        <ul>
+                <li>Покупайте то, что вам действительно нужно.</li>
+                <li>Сдавать отходы на переработку. Это не только уменьшит объем мусора, но и поможет сохранить ресурсы.</li>
+                <li>Постарайтесь выключать свет и электроприборы из сети, когда ими не пользуетесь.</li>
+                <li>Используйте меньше одноразового пластика.</li>
+                <li>Используйте экологичные средства передвижения. Помимо обычного автомобиля можно использовать устройства работающие на электроэнергии</li>
+                <li>Выбирайте товары в наиболее экологичной упаковке</li>
+        </ul>
+    </div>
+    
+
+
+
+</div>
+<div id="knop">
+    <div id="home">
+        <a id="refr" href="ecology.html"><input onmouseenter="abc()" onmouseleave="def()" type="button" id="send" value="Перейти"></a>
+    </div>
+    
+    <select id="other" onchange="change_select()">
+        <option value="ecology.html">Экология</option>
+        <option value="Первая помощь(главная страница).html">Про первую помощь </option>
+        <option value="saveanimals.html">Спасение животных </option>
+        <option value="diet.html">Правильное питание </option>
+        <option value="obj.html">ОБЖ </option>
+        <option value="index.html">Главная </option>
+    </select>
+</div>
+</body>
+<script> 
+    var jmk = document.getElementById("send");
+    function abc(){
+        jmk.setAttribute("value", "тык");
+    }
+    var jmk = document.getElementById("send");
+    function def(){
+        jmk.setAttribute("value", "На главную");
+    }
+    function change_select(){
+        var sel = document.getElementById("other")
+        document.getElementById('refr').setAttribute('href', sel.value)
+    }
+
+</script>
+</html>

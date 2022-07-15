@@ -1,0 +1,191 @@
+body{
+    background-color:rgb(41, 39, 39);
+}
+
+.hglav{
+    font-size:  6rem;
+    margin-right: 2rem;
+    margin-top: 4rem;
+    color: rgb(188, 235, 235);
+}
+
+.hglav2{
+    font-size:  2rem;
+    margin-right: 3rem;
+    margin-top: 9rem;
+    color: rgb(188, 235, 235);
+}
+
+.hglav3{
+    font-size:  2rem;
+    margin-right: 3rem;
+    margin-top: 7rem;
+    color: rgb(188, 235, 235);
+}
+
+.hglav3:hover{
+    color: rgb(22, 163, 163);
+}
+
+.hglav2:hover{
+    color: rgb(22, 163, 163);
+}
+
+.hglav:hover{
+    color: rgb(22, 163, 163);
+}
+
+.txt1{
+    font-size: 1.5rem;
+    margin-left: 2rem;
+    color: aliceblue;
+}
+
+.blocks, #blok1{
+    width: 50%;
+    border:1px solid;
+    margin-top: 2.5rem;
+    margin-left: 2.5rem;
+    background: #f3f4f5;
+    border-radius: 5rem;
+}
+
+.hglavmini{
+    text-align: center;
+    font-size: 12pt;
+}
+
+.text_fire{
+
+color: #0e0d0d;
+margin-left: 2.5rem;
+margin-top: 1rem;
+}
+
+#cont1{
+    display: flex;
+    flex-direction: row;
+    margin-right: 2rem;
+}
+
+#cont2{
+    display: flex;
+    flex-direction: row;
+    margin-right: 2rem;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,500,300,700);
+
+* {
+  font-family: Roboto;
+}
+
+.footer-distributed{
+  background: #444;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+  box-sizing: border-box;
+  width: 100%;
+  font: bold 16px sans-serif;
+  text-align: left;
+  padding: 50px 60px 40px;
+  overflow: hidden;
+}
+
+section {
+  width: 0%;
+  display: inline-block;
+  background: #ccc;
+  height: 0rem;
+  text-align: center;
+  font-size: 22px;
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+
+
+.footer-distributed .footer-left{
+  float: left;
+}
+
+.footer-distributed h3{
+  color:  #ffffff;
+  font: normal 36px 'Roboto', cursive;
+  margin: 0 0 10px;
+}
+
+.footer-distributed h3 span{
+  color:  #5383d3;
+}
+
+
+.footer-distributed .footer-links{
+  color:  #ffffff;
+  margin: 0 0 10px;
+  padding: 0;
+}
+
+.footer-distributed .footer-links a{
+  display:inline-block;
+  line-height: 1.8;
+  text-decoration: none;
+  color:  inherit;
+}
+
+.footer-distributed .footer-company-name{
+  color:  #8f9296;
+  font-size: 14px;
+  font-weight: normal;
+  margin: 0;
+}
+
+
+@media (max-width: 1000px) {
+
+  .footer-distributed {
+    font: bold 14px sans-serif;
+  }
+
+  .footer-distributed .footer-company-name{
+    font-size: 12px;
+  }
+
+}
+
+@media (max-width: 800px) {
+
+  .footer-distributed{
+    padding: 30px;
+  }
+
+  .footer-distributed .footer-left,
+  .footer-distributed .footer-right{
+    float: none;
+    max-width: 300px;
+    margin: 0 auto;
+  }
+
+  .footer-distributed .footer-left{
+    margin-bottom: 40px;
+  }}
+
+.btn1{
+    border: 6px solid rgb(177, 10, 10);
+    background-color: rgb(177, 10, 10);
+    position: fixed;
+    left: 105rem;
+    height: 6%;
+    width: 3%;
+    border-radius: 3rem;  
+}
+
+.btn2{
+    border: 6px solid rgb(187, 19, 19);
+    background-color:  rgb(177, 10, 10);
+    position: fixed;
+    left: 105rem;
+    top: 55rem;
+    width: 3%;
+    height: 6%;
+    border-radius: 3rem;  
+}

@@ -1,0 +1,156 @@
+body{
+    background-image: linear-gradient(rgb(124, 150, 255),rgb(255, 255, 255),rgb(190, 255, 150));
+
+    
+}
+#d1{
+    font-family: 'Neucha', cursive;
+    text-align: center;
+    font-size: 33pt;
+width: 50%;
+}
+#d2{
+    text-align: center;
+    font-family: 'Comfortaa', cursive;
+    font-size: 20pt;
+    
+   
+    
+}
+#fx{
+    display: flex;
+    flex-direction: column;
+    align-content:center;
+    align-items:center;
+    height: 45%;
+}
+#text{
+    font-size: 20.6pt;
+    border: 5px inset grey;
+    background-color: rgb(234, 255, 254);
+    font-family: 'Nunito Sans', sans-serif;
+   
+    width: 50%;
+    margin: 0 5 5 0;
+    border-radius: 25px;
+   
+}
+#text2{
+    font-size: 20.6pt;
+    font-family: 'Nunito Sans', sans-serif;
+    border: 5px outset grey;
+    height: auto;
+    width: 50%;
+    margin: 5 0 0 5;
+    background-color: rgb(214, 255, 214);
+    border-radius: 25px;
+   
+}
+#fx2{
+   
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    align-content: stretch;
+}
+#vid{
+    /* border: 5px inset grey; */
+    height:100%;
+    width: 50%;
+    margin: 5px 5px 0 0;
+    border-radius: 25px;
+    box-shadow: 0px 0px 10px rgb(77, 77, 77);
+}
+#fx1{
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    align-content: stretch;
+}
+#vid2{
+    /* border: 5px inset grey; */
+    height: 100%;
+    width: 50%;
+    margin: 0 0 5 5;
+    border-radius: 25px;
+    box-shadow: 0px 0px 10px rgb(77, 77, 77);
+}
+.myvideo{
+    height: 540px;
+    width: 930px;
+    border-radius: 20px;
+}
+#h1_2{
+    text-align: center;
+    font-family: 'Comfortaa', cursive;
+    font-weight: 200;
+}
+#home{
+    margin: 15;
+    margin-left: auto;
+    margin-right: auto;
+    
+    /*flex-grow: 40;*/
+    
+}
+#send{
+    font-family: 'Prosto One', cursive;
+    height: 45px;
+    width: 270px;
+    font-size: 32px;
+    background-color: rgb(226, 225, 225);
+    text-align: center;
+    border-radius: 20PX;
+    margin:  0 0 0 252px;
+    border-color: gray;
+    border: 3px outset grey;
+}
+#send:active{
+    border-color: transparent;
+    background-color: transparent;
+
+}
+
+
+#send:hover{
+    color: rgb(0, 160, 0);
+    /* background-color: transparent;
+    border-color: transparent; */
+    border: 3px inset grey;
+    background-color: rgb(209, 209, 209);
+    font-size: 32px;
+    text-align: center;
+    
+    box-shadow: 0px 0px 10px rgb(77, 77, 77);
+}
+#other{
+    /* margin: 0px 0px 0px 200px; */
+    font-family: 'Rubik', sans-serif;
+    height: 45px;
+    width: 250px;
+    font-size: 30px;
+   /* flex-grow: 10;*/
+    border-radius: 30PX;
+    text-align: center;
+    padding: 0 0 0 10px;
+    }
+    
+#knop{
+
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    
+}
+#other:hover{
+color: rgb(0, 160, 0);
+height: 65px;
+border-color: transparent;
+
+}
+#other:active{
+
+}
+
